@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+.txt1{
+    background-color: darkkhaki;
+    text-align: center;
+}
+
+    .subject-name{
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        animation: fontChange 5s infinite;
+        animation: fontChange 5s infinite;
+        margin-top: 20%;
+    }
+
+    @keyframes fontChange {
+
+        0%{
+           font-family: 'Courier New', Courier, monospace;
+        }
+        5%{
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        10%{
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        15%{
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        20%{
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        25%{
+           font-family: 'Times New Roman', Times, serif;
+        }
+        30%{
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        35%{
+           font-family: Arial, Helvetica, sans-serif;
+        }
+        40%{
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        45%{
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        50%{
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        55%{
+           font-family: 'Courier New', Courier, monospace;
+        }
+        60%{
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        65%{
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        70%{
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        75%{
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        80%{
+           font-family: 'Times New Roman', Times, serif;
+        }
+        85%{
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        90%{
+           font-family: Arial, Helvetica, sans-serif;
+        }
+        95%{
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        100%{
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+   }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="frame3.css">
+
+<style>
+    .spinner{
+        border: 8px solid #f3f3f3;
+        border-top: 8px solid #151413ca;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: alternate spin 2s linear infinite;
+        margin: 50px auto;
+    }
+
+    @keyframes spin {
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+        
+    }
+
+@keyframes bounce {
+    0%, 20%,50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+
+    transform: translateY(-20px);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+}
+
+.loading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loading-ball{
+    width: 30px;
+    height: 30px;
+    background-color: #3498db;
+    border-radius: 50%;
+    animation: bounce 1.5s infinite;
+}
+
+
+</style>
+
+</head>
+<body>
+    <h1 class="txt1">Please Click On Link.......</h1>
+
+    <div>
+        <h1 class="subject-name">Client Side Scripting</h1>
+    </div>
+
+
+    <div class="spinner"></div>
+<!--
+    <div class="loading-container">
+        <div class="loading-ball"></div>
+    </div>
+-->
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightsteelblue;
+}
+
+header{
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+}
+
+.logo-left img,
+.logo-right img {
+    max-height: 100px;
+}
+
+.logo-center h1{
+    margin: 0;
+}
+
+.subject-name{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    animation: fontChange 5s infinite;
+}
+
+
+.topic-name{
+     text-transform: uppercase;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+     margin-top: 50px;
+     transition: 0.3s ease;
+     
+}
+
+.topic-name:hover{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: brown;
+    font-size: 30px;
+}
+
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.unit-button{
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+.unit-button:hover{
+    background-color: #2980b9;
+}
+
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.text1{
+    text-align: center;
+    margin-top: 30px;
+    color: darkgoldenrod;
+    font-weight: bolder;
+
+}
+
+@keyframes fontChange {
+
+     0%{
+        font-family: 'Courier New', Courier, monospace;
+     }
+     5%{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     10%{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     15%{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     20%{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     25%{
+        font-family: 'Times New Roman', Times, serif;
+     }
+     30%{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     35%{
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     40%{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     45%{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+     50%{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+     55%{
+        font-family: 'Courier New', Courier, monospace;
+     }
+     60%{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     65%{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     70%{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     75%{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     80%{
+        font-family: 'Times New Roman', Times, serif;
+     }
+     85%{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     90%{
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     95%{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     100%{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+     
+}
